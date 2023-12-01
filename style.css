@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+/* base styling with universal selector and body*/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+    /* 1.6*10 = 16px */
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+/*this selector , selects the 3 things all together at once*/
+h1,h2,p{
+    /* the 1.6rem is for margin top and bottom and the 0 is for right and left*/
+    margin:1.6rem 0 ;
+}
+
+h1{
+    font-weight: 800;
+    /* 3.6*10 = 36px */
+    font-size: 3.6rem;
+}
+
+h2{
+    font-weight: 800;
+    /* 2.4*10 = 24px */
+    font-size: 2.4rem;
+}
+
+p{
+    font-weight: 400;
+    /* 1.8*10 = 18px */
+    font-size: 1.8rem;
+}
+
+/* this is just targeting the images just to make them responsive */
+img{
+    width: 100%;
+    height: auto;
+}
+/* this class will be used to layout content in a horizontal way.
+   you can change the direction buy flex-direction: column; .we are 
+   going to use this property to make the websit responsive, when 
+   website is in a normal the content will bw horizontal, and then when 
+   its in tablet or mobile it will change to flex-direction: column  */
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+section{
+    /* the 100px is for margin top and bottom and the 0 is for right and left*/
+    padding: 100px 0;
+}
+
+
+/*Hero section*/
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url('Images/pexels-photo-443383.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+.logo h1{
+    font-size: 3.2rem;
+    color: #4caf50;
+    margin: 0;
+}
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+nav ul li a:hover{
+    color:#4caf50;
+    transition: .5s ease-in-out;
+}

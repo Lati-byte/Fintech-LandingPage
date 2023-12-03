@@ -251,6 +251,35 @@ input::placeholder{
     height: 50px;
 }
 
+/*Contact Section*/
+.contact .row{
+    justify-content: center;
+}
+.contact form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact form input{
+    width: 50%;
+}
+.contact textarea {
+    width: 50%;
+    height: 150px;
+    /*12px=top,botom 20px=right,left */
+    padding: 12px 20px;
+    border: 1px #ccc solid;
+    font-size: 1.3rem;
+    resize: none;
+    color: #ccc;
+    margin: 1.2rem 0;
+    font-family: "Poppins" sans-serif;
+}
+
+
+
+
 /*Media Queries*/
 @media only screen and(max-width:768px){
     nav{

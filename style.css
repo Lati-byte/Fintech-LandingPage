@@ -226,6 +226,31 @@ input::placeholder{
     color: #4caf50;
 }
 
+/* Testimony Section*/
+.testimony{
+ background-color: #222;  
+ color: white; 
+}
+.testimony .test{
+    background-color: #505050;
+    padding: 4rem 8rem;
+    margin: 0 1rem;
+}
+.testimony .image {
+    height: 80px;
+    width: 80px;
+}
+.testimony img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimony .star{
+    width: 50px;
+    height: 50px;
+}
+
 /*Media Queries*/
 @media only screen and(max-width:768px){
     nav{

@@ -1,0 +1,12 @@
+THis is a document entailing the process of how the author built the website top to bottom step by step
+
+1. The author starts of by gathering the fonts and icons, he gets an import link from google fonts of which
+   he pastes on the CSS docu. He get a script link from  of boxicons.com, he then pastes the script link in
+   the HTML docu next to the Javascript link.
+2. He then started writing in the css docu, whereby he started with base styling for the repetetive components
+   like *(Universal selctor), body, a(link anchor), h1,h2,p(Headings and Paragraphs), img(making the image 
+   responsive) and he made row class that its sole purpose is to make the content horizontal(display;flex)
+   lastley is a section where it had a padding of 100px.
+3. @Media query was used to make some aspects responsive, it was not on the @media query , also using % on 
+   certian widths contribute to the responsivenes of a website
+4. All of the sections were divided into thier own parts Hero, About, About2, Process, Testimony, contact

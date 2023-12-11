@@ -277,7 +277,12 @@ input::placeholder{
     font-family: "Poppins" sans-serif;
 }
 
-
+/*Footer Section*/
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
 
 
 /*Media Queries*/
